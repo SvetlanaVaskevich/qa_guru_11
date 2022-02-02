@@ -11,7 +11,7 @@ public class InmyroomSearchTest {
     @Test
     public void searchInmyroomProductTest(){
         open("https://www.inmyroom.ru/");
-        $("input[type='text']").setValue("стол").pressEnter();
-        $("div.s-Search_b-Title").$("h1").shouldHave(Condition.text("стол"));
+        $("input[type='text']").setValue("диван").pressEnter();
+        $("div.s-Search_b-Title").$("h1").shouldHave(Condition.text("диван"));
     }
 }
